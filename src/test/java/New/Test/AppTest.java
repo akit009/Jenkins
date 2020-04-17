@@ -53,6 +53,8 @@ public class AppTest {
 
 		String messageText = "Corona Counts Updates  " + "\n  " + " Today's Count:" + Count_today + " \n "
 				+ " Total Count: " + Total_Count + " \n  " + " Last Updated On:" + Last_Updated + " \n  ";
+		
+		
 
 		TextMessage message = new TextMessage("Vonage SMS API", "919599076899", messageText);
 //		TextMessage message1 = new TextMessage("Vonage SMS API", "919650483501", messageText);
