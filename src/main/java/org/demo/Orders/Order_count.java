@@ -46,10 +46,10 @@ public class Order_count {
 		driver.get("https://app.powerbi.com");
 		driver.findElement(By.xpath("//a[text()='Sign in']")).click();
 		Thread.sleep(5000);
-		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("info@theluxurycloset.com");
+		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("");
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		Thread.sleep(5000);
-		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("P0w3rbi@2020tlc!");
+		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("");
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		Thread.sleep(10000);
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
