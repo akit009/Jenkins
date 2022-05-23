@@ -98,7 +98,7 @@ public class Order_count {
 				+ Andriod_Orders);
 
 		GetTimeStamp.Time();
-		NexmoClient client = new NexmoClient.Builder().apiKey("7d87a91d").apiSecret("D3eEtPLVKW5CWtfW").build();
+		NexmoClient client = new NexmoClient.Builder().apiKey("").apiSecret("").build();
 		TextMessage message = new TextMessage("Vonage SMS API", "919599076899", messageText);
 		SmsSubmissionResponse response = client.getSmsClient().submitMessage(message);
 		for (SmsSubmissionResponseMessage responseMessage : response.getMessages()) {
